@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0-rc2-3002702"
+    },
+
+    "Microsoft.EntityFrameworkCore": "1.0.0-rc2-final",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-final",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc2-final",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc2-final",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-final"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}
